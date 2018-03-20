@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --content-base ./ --env.dev",
-    "build": "webpack --env.prod",
-    "postinstall": "webpack -p",
+    "postinstall": "webpack --env.prod",
     "start": "http-server"
   },
   "repository": {
