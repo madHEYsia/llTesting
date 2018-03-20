@@ -1,23 +1,24 @@
 {
   "name": "react-example",
   "version": "1.0.0",
-  "description": "BallPark React example app",
+  "description": "React example app",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --content-base ./ --env.dev",
     "build": "webpack --env.prod",
+    "postinstall": "webpack -p",
     "start": "http-server"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/madHEYsia/bP"
+    "url": "https://github.com/madHEYsia/llTesting"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/madHEYsia/bP"
+    "url": "https://github.com/madHEYsia/llTesting"
   },
-  "homepage": "https://github.com/madHEYsia/bP",
+  "homepage": "https://github.com/madHEYsia/llTesting",
   "dependencies": {
     "bootstrap": "^3.3.5",
     "react": "15.3.0",
